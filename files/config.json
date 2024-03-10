@@ -1,0 +1,38 @@
+{
+    "version" : 1.0,
+    "caption" : "警察抓小偷",
+    "icon" : "files/images/icon.ico",
+    "images" : {
+        "police" : "files/images/police.bmp",
+        "thief_ord" : "files/images/thief_ord.bmp",
+        "thief_invin" : "files/images/thief_invin.bmp",
+        "invin_box" : "files/images/invin_box.bmp",
+        "coin" : "files/images/coin.bmp"
+    },
+    "sounds" : {
+        "gameover" : "files/sounds/gameover.wav",
+        "time_sub5" : "files/sounds/time_sub5.wav",
+        "time_out" : "files/sounds/time_out.wav"
+    },
+    "initial_pos" : {
+        "police" : [0, 400],
+        "thief" : [1250, 400]
+    },
+    "show_time" : {
+        "invin_box" : 5,
+        "coin" : 3
+    },
+    "border" : {
+        "up" : 0,
+        "down" : 687,
+        "left" : 0,
+        "right" : 1250
+    },
+    "speed" : 2,
+    "invin_time" : 3,
+    "bonus" : 1,
+    "win_score" : 10,
+    "gameover_time" : 120,
+    "font" : "C:/windows/Fonts/simhei.ttf",
+    "game_tick" : 100
+}
